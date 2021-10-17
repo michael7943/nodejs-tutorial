@@ -20,7 +20,7 @@ const server = http.createServer((req, res) => {
   // WE COVER THE CAUSE, LATER IN EXPRESS TUTORIAL
   console.log(req);
   if (req.url === '/') {
-    res.end('Welcome to our home page')
+    res.end('Welcome to our home page mike ')
   } else if (req.url === '/about') {
     res.end('Here is our short history')
   } else {
